@@ -4,4 +4,4 @@
 @echo off
 rmdir /s /q build
 mkdir build
-gcc .\src\heap.c -o build\heap.exe
+gcc .\src\main.c -o build\main.exe
