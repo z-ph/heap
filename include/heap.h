@@ -29,7 +29,7 @@ void heap_destroy(Heap *heap);
 void heap_print(Heap *heap);
 
 // 堆排序函数, 对给定数组进行排序, ascending 为真时升序排序, 否则降序排序
-void heap_sort(Element *array, int length, int ascending);
+void heap_sort(Element *array, int length, enum SORT_ORDER sort_order);
 
 /* 底层api*/
 // 对某一节点进行堆化
